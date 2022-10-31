@@ -1,0 +1,40 @@
+#tabela{
+    .container {
+        display: grid;
+        grid-template-columns: 47% 47%;
+        gap: 6%;
+    }
+}
+table{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    -webkit-box-shadow: 12px 14px 4px 5px rgba(0,0,0,0.22); 
+     box-shadow: 12px 14px 4px 5px rgba(0,0,0,0.22);
+     border: solid 1px #4cc9f0
+}
+
+table thead th{
+    border: solid 1px black;
+    width: 250;
+    align: center;
+    background-color: black;
+    color: white;
+    cellpadding:"5"
+}
+table td{
+    background-color: #4cc9f0;
+}
+
+table tbody tr:nth-child(even) td{
+    background-color:#4cc9f0 ;
+}
+
+table tbody tr:hover td{
+    background-color:#E9E9E9 ;
+    cursor: pointer;
+}
+
+caption{
+    align-items: flex-start;
+}
